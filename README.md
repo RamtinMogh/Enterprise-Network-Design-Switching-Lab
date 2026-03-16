@@ -1,7 +1,11 @@
 # Enterprise Network Design & Switching Lab
-[<image-card alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" ></image-card>](https://opensource.org/licenses/MIT)
-[<image-card alt="Networking Project" src="https://img.shields.io/badge/Project-Networking-blue" ></image-card>](https://github.com/RamtinMogh/Enterprise-Network-Design-Switching-Lab)
-[<image-card alt="Aruba Switches" src="https://img.shields.io/badge/Tech-Aruba%20Switches-green" ></image-card>](https://www.arubanetworks.com/)
+<a href="https://www.arubanetworks.com/"><img src="https://amt-it.com/wp-content/uploads/2020/10/Aruba_Networks-Logo.wine_.png" alt="Aruba" height="30"></a>
+<a href="https://www.wireshark.org/"><img src="https://www.wireshark.org/_astro/wca.C_vSXqTJ_Z2pt6cI.webp" alt="Wireshark" height="30"></a>
+<a href="https://www.virtualbox.org/"><img src="https://1000logos.net/wp-content/uploads/2020/08/VirtualBox-Logo-2009.png" alt="VirtualBox" height="30"></a>
+<a href="https://ubuntu.com/"><img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_1920/https%3A%2F%2Fubuntu.com%2Fwp-content%2Fuploads%2Fff30%2Flogo_thumbnailYT.png" alt="Ubuntu" height="30"></a>
+<a href="https://en.wikipedia.org/wiki/Virtual_LAN"><img src="https://cdn.prod.website-files.com/65f7f0027cb1900111ab2e6f/681b52b90fb1761636d217f6_Blogartikel-Bilder-2025_VLAN_1580x970px.webp" alt="VLAN" height="30"></a>
+<a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol"><img src="https://www.shutterstock.com/shutterstock/photos/1860158311/display_1500/stock-vector-dhcp-dynamic-host-configuration-protocol-acronym-business-concept-word-lettering-typography-1860158311.jpg" alt="DHCP" height="30"></a>
+<a href="https://en.wikipedia.org/wiki/Secure_Shell"><img src="https://ded9.com/wp-content/uploads/2022/07/ssh.png-hamyarit.com-ssh.png.webp" alt="SSH" height="30"></a>
 
 A hands-on group project (with teammate Sidney Mills) demonstrating enterprise-level network design and configuration. We used physical Aruba switches connected via patch panels to lab computers, with Oracle VirtualBox running Ubuntu VMs for endpoints. Key features include VLAN segmentation, trunking with LACP port channels, DHCP server setup, inter-VLAN routing, SSH connectivity, a simple hosted webpage, and traffic analysis with Wireshark.
 
