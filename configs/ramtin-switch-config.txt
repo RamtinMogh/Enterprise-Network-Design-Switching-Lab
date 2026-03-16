@@ -1,0 +1,43 @@
+config t
+vlan 62
+  name vlan 62
+  exit
+vlan 48
+  name vlan 48
+  exit
+interface 1/1/5
+  no shutdown
+  no routing
+  vlan trunk allowed 48,62
+  exit
+interface 1/1/6
+  no shutdown
+  no routing
+  vlan trunk allowed 48,62
+  exit
+interface 1/1/1
+  no shutdown
+  no routing
+  vlan access 48
+  exit
+int vlan 48
+  ip address 172.20.12.1 255.255.255.128
+  exit
+int vlan 62
+  ip address 172.20.15.1 255.255.255.128
+int lag 1
+  no shut
+  no route
+  vlan trunk allowed all
+  lacp mode active
+dhcp-server vrf default
+  pool Ramtin
+    range 172.20.12.2 172.20.12.126
+    default-router 172.20.12.1
+    exit
+  pool Sidney
+    range 172.20.15.2 172.20.15.126
+    default-router 172.20.15.1
+    exit
+authoritative
+enable
